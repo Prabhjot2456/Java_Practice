@@ -32,5 +32,8 @@ class Lecture12{
         // s3 = "PrabhjotSingh";
         // System.out.println(s3.hashCode());      // because of string constant pool 
         
+        String joined =
+        String.join("-","Python","Java","C");
+        System.out.println(joined);
     }
 }
